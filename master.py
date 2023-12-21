@@ -13,6 +13,7 @@ def formata_numero(valor, prefixo= ' '):
         valor /= 1000
     return f'{prefixo} {valor:.2f} milhões'
 st.title('DASHBOARD DE VENDAS :shopping_trolley:')
+st.title('Teste de Texto')
 
 url = 'http://labdados.com/produtos'
 response = requests.get(url)
